@@ -1,23 +1,4 @@
-:root {
-    --branco-principal: #FFFFFF;
-    --cinza-secundario: #667085;
-    --brown: #8E2424;
-    --fonte-padrao: 'Inter';
-}
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    color: var(--cinza-secundario);
-    font-family: var(--fonte-padrao);
-    font-size: 16px;
-    font-weight: 400;
-}
-
-.flexbox-container {
+.navbar__container {
     padding: 0px 32px;
     display: flex;
     flex-wrap: wrap;
@@ -26,54 +7,54 @@ body {
     margin: 18px 80px;
 }
 
-.flexbox-item {
+.navbar__item {
     margin: 5px;
 }
 
-.item-1 {
+.navbar-imagem {
     margin-right: 119px;
 }
 
-.item-2 ul{
+.navbar-links ul{
     display: flex;
 }
 
-.item-2 li{
+.navbar-links li{
     list-style-type: none;
 }
 
-.item-2 a{
+.navbar-links a{
     text-decoration: none;
     margin: 0px 40px 0px 0px;
 }
 
-.item-2 a:hover{
+.navbar-links a:hover{
     border-bottom: 2px solid var(--brown);
 }
 
-.item-3 {
+.navbar-botoes {
     margin-left: auto;
     display: flex;
     justify-content: end;
 }
 
-.item-3 a{
+.navbar-botoes a{
     text-decoration: none;
     padding: 10px 18px;
     border-radius: 8px;
 }
 
-.item-3__entrar:hover {
+.navbar-botao-entrar:hover {
     background-color: #8d4545;
     color: var(--branco-principal);
 }
 
-.item-3__cadastrar {
+.navbar-botao-cadastrar {
     margin-left: 12px;
     background-color: var(--brown);
     color: var(--branco-principal);
 }
 
-.item-3__cadastrar:hover {
+.navbar-botao-cadastrar:hover {
     background-color: #631f1f;
 }
