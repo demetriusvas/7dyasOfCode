@@ -1,0 +1,37 @@
+:root {
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #667085;
+    --brown: #8E2424;
+    --fonte-padrao: 'Inter';
+}
+
+.metricas__container {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    font-size: 16px;
+    margin: 18px 80px;
+}
+
+.metricas__container h2 {
+    font-size: 60px;
+    color: var(--brown);
+    margin-bottom: 12px;
+}
+
+.metricas__container h3 {
+    font-size: 18px;
+    color: var(--cinza-secundario);
+    margin-bottom: 8px;
+}
+
+.metricas__projetos{
+    margin-right: 32px;
+}
+
+.metricas__colaboradores{
+    margin-right: 32px;
+}
+
+.metricas__downloads{
+    margin-right: 32px;
+}

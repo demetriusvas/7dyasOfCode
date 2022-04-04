@@ -7,13 +7,11 @@
 
 .cabecalho__container {
     margin: 18px 80px;
-
     padding: 96px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 
 .cabecalho__container h1{
