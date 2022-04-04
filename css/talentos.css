@@ -1,0 +1,35 @@
+:root {
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #667085;
+    --brown: #8E2424;
+    --fonte-padrao: 'Inter';
+}
+
+.talentos__container{
+    text-align: center;
+    margin: 100px 80px;
+}
+
+.talentos__container span{
+    font-size: 14px;
+    background-color: #8e242415;
+    color: var(--brown);
+    padding: 4px 12px;
+    border-radius: 16px;
+    font-weight: bold;
+}
+
+.talentos__container h2{
+    font-size: 36px;
+    margin: 16px 0;
+}
+
+.talentos__container p{
+    font-size: 20px;
+    margin: 4px 0;
+}
+
+.talentos__container img{
+    margin: 60px 0;
+    width: 100%;
+}
