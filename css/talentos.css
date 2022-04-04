@@ -7,7 +7,7 @@
 
 .talentos__container{
     text-align: center;
-    margin: 100px 80px;
+    margin: 0px 80px 0px 80px;
 }
 
 .talentos__container span{
@@ -30,6 +30,6 @@
 }
 
 .talentos__container img{
-    margin: 60px 0;
+    margin: 60px 0px 0px 0px;
     width: 100%;
 }

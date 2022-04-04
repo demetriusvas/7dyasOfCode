@@ -1,0 +1,37 @@
+:root {
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #667085;
+    --brown: #8E2424;
+    --fonte-padrao: 'Inter';
+}
+
+.vagas__container {
+    width: 768px;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.vagas__container h2{
+    margin: 64px 0px 32px 0;
+}
+
+.vaga {
+    border: 1px solid #EAECF0;
+    border-radius: 16px;
+    padding: 24px 24px 28px 24px;
+    margin: 20px 20px;
+}
+
+.titulo-vaga {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.informacoes {
+    font-size: 16px;
+    margin-top: 32px;
+}
+
+.informacoes span{
+    margin-right: 24px;
+}
