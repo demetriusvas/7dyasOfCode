@@ -1,6 +1,7 @@
 :root {
     --branco-principal: #FFFFFF;
     --cinza-secundario: #667085;
+    --texto-preto: #101828;
     --brown: #8E2424;
     --fonte-padrao: 'Inter';
 }
@@ -17,6 +18,7 @@
 .cabecalho__container h1{
     font-size: 48px;
     padding: 24px 0;
+    color: var(--texto-preto);
 }
 
 .cabecalho__container h2{

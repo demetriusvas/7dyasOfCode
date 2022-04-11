@@ -1,0 +1,43 @@
+:root {
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #667085;
+    --texto-preto: #101828;
+    --brown: #8E2424;
+    --fonte-padrao: 'Inter';
+}
+
+.depoimentos__container {
+    background-color: rgba(195, 25, 25, 0.03);
+    text-align: center;
+    padding: 64px;
+    margin: 96px 80px 0px 80px;
+    border-radius: 16px;
+}
+
+.depoimentos__quote h2{
+    font-size: 14px;
+    color: var(--brown);
+}
+
+.depoimentos__quote p{
+    font-size: 36px;
+    margin: 16px 64px;
+    color: var(--texto-preto);
+}
+
+.depoimentos__avatar {
+    margin-top: 32px;
+}
+
+.depoimentos__avatar img {
+    margin-bottom: 16px;
+}
+
+.depoimentos__avatar-nome {
+    margin-bottom: 4px;
+    font-size: 16px;
+}
+
+.depoimentos__avatar-cargo {
+    font-size: 14px;
+}

@@ -1,6 +1,7 @@
 :root {
     --branco-principal: #FFFFFF;
     --cinza-secundario: #667085;
+    --texto-preto: #101828;
     --brown: #8E2424;
     --fonte-padrao: 'Inter';
 }
@@ -22,6 +23,7 @@
 .talentos__container h2{
     font-size: 36px;
     margin: 16px 0;
+    color: var(--texto-preto);
 }
 
 .talentos__container p{
